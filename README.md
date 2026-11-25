@@ -35,3 +35,15 @@ The browser will open the local Streamlit application.
 
 ## Important
 This is an academic decision-support project. A prediction is not proof that a student will drop out. Use it to identify students who may need supportive follow-up, and review predictions with relevant staff.
+
+
+## Dark dashboard UI update
+The app now uses a dark navy dashboard theme with a redesigned sidebar, hero header,
+metric cards, and improved spacing. The original four modules and Random Forest
+prediction workflow are retained.
+
+To run locally:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
